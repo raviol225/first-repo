@@ -8,15 +8,15 @@ export default function Home() {
            💩 LICACA 💩
         </h1>
         <p className="text-center text-gray-600 mb-8">
-          Découvre quels aliments te font du bien ou du mal
+          Quels aliments font faire caca... ou pas ?
         </p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <MealForm />
           
           <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-            <h2 className="text-2xl font-semibold mb-4">🤢 Noter des symptômes</h2>
-            <p className="text-gray-600">Comment tu te sens ?</p>
+            <h2 className="text-2xl font-semibold mb-4">🤢 Mes dernier repas</h2>
+            <p className="text-gray-600">Je modifie mon ressenti</p>
           </div>
         </div>
       </div>
