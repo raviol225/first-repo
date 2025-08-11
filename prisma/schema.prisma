@@ -24,6 +24,7 @@ model Meal {
   items         FoodFeeling[]
   symptomTime   String?
   symptomEnd    String?
+  painRating    Int @default(0)
   createdAt     DateTime @default(now())
   mealHistory   MealHistory[]
 }
